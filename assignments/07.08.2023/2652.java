@@ -1,11 +1,15 @@
-class Solution {
-    public int sumOfMultiples(int n) {
-        int sum =0 ;
-        for(int i =1 ; i<=n; i++){
-            if(i%3==0 || i%5==0 || i%7==0 ){
-                sum += i;
-            }
+public class solution {
+    public static void main(String[] args) {
+        long startTime = System.nanoTime();
+
+        // Your code snippet to measure
+        for (int i = 0; i < 1000000; i++) {
+            // Some code to execute
         }
-        return sum ;
+
+        long endTime = System.nanoTime();
+        long elapsedTime = endTime - startTime;
+
+        System.out.println("Elapsed Time: " + elapsedTime + " nanoseconds");
     }
 }
